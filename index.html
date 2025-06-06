@@ -1,71 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>TechSolutions - Sua Vitrine Digital</title>
-  </head>
-  <body>
-    <h1>TechSolutions</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Centralizado</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
 
-    <p>
-      A <strong>TechSolutions</strong> é uma startup inovadora dedicada a
-      fornecer <em>soluções tecnológicas</em> para pequenas e médias empresas em
-      Salvador. Nosso compromisso é ajudar negócios a crescerem com o apoio da
-      tecnologia.
-    </p>
+        body {
+            background-color: lightsalmon;
+        }
 
-    <h2>Quem Somos</h2>
+        main {
+            background-color: lightgreen;
+            height: 100vh;
+            width: 100vw;
+            
+            
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        
+        }
 
-    <p>
-      Somos uma equipe apaixonada por tecnologia e inovação, sempre prontos para
-      desenvolver soluções que impulsionem o sucesso dos nossos clientes.
-    </p>
-
-    <h2>Serviços Oferecidos</h2>
-
-    <ol>
-      <li>Desenvolvimento de Websites modernos e responsivos.</li>
-      <li>Implantação de Sistemas de Gestão Empresarial.</li>
-      <li>Consultoria em Transformação Digital.</li>
-    </ol>
-
-    <h2>Nossa Equipe</h2>
-
-    <ul>
-      <li><strong>Maria Silva</strong> - CEO e Fundadora</li>
-      <li><strong>João Santos</strong> - Desenvolvedor Full Stack</li>
-    </ul>
-
-    <h2>Contato</h2>
-
-    <p>
-      E-mail:
-      <a href="mailto:contato@techsolutions.com">contato@techsolutions.com</a
-      ><br />
-      Telefone: (71) 99999-9999
-    </p>
-
-    <h2>Onde Estamos</h2>
-
-    <p>
-      <a href="https://www.google.com/maps" target="_blank"
-        >Clique aqui para ver nossa localização no mapa</a
-      >
-    </p>
-
-    <h2>Nos Acompanhe</h2>
-
-    <p>
-      <a href="https://www.instagram.com/techsolutions" target="_blank"
-        >Instagram da TechSolutions</a
-      >
-    </p>
-
-    <h2>Nosso Trabalho</h2>
-
-    <img
-      src="https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg"
-      alt="Pessoa programando no computador"
-      width="500"
-    />
-  </body>
+        section {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
+</body>
 </html>
